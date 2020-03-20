@@ -1,5 +1,5 @@
-1. Write a Java method to count all vowels in a string-
-2. Write a Java method to count all words in a string
+1. Write a Java method to count all vowels in a string-vowelscount.java
+2. Write a Java method to count all words in a string-wordscount.java
 3. Write a Java method to print characters between two characters
 Note: Prints 20 characters per line
 Expected Output:
