@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class PlayWithNumbersDecomposed
+{
+public static void main(String args[])
+{
+twon();
+threen();
+}
+public static void twon()
+{
+Scanner ob=new Scanner(System.in);
+System.out.println("enter the two numbers:");
+int a=ob.nextInt();
+int b=ob.nextInt();
+System.out.println("a+b is equal to "+(a+b));
+System.out.println("a-b is equal to "+(a-b));
+System.out.println("a*b is equal to "+(a*b));
+System.out.println("a/b is equal to "+(a/b));
+System.out.println("a%b is equal to "+(a%b));
+}
+public static void threen()
+{
+Scanner ob=new Scanner(System.in);
+System.out.println("enter three numbers:");
+double a=ob.nextInt();
+double b=ob.nextInt();
+double c=ob.nextInt();
+System.out.println("(a-b)/c is equal to "+(a-b)/c);
+System.out.println("(b-a)/c is equal to "+(a-b)/c);
+System.out.println("(a-c)/b is equal to "+(a-c)/b);
+System.out.println("(c-a)/b is equal to "+(c-a)/b);
+System.out.println("(c-b)/a is equal to "+(c-b)/a);
+System.out.println("(b-c)/a is equal to "+(b-c)/a);
+}
+}
+
