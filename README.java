@@ -97,7 +97,7 @@ ini_effi and fuel_in_tank. Include a method
 add_fuel that calculates how much fuel can be filled depending upon the fuel already in the tank and
 the capacity of the tank. Also, include a method
 driveDistance that returns how much distance can be travelled with the fuel available in the tank with
-the efficiency provided.
+the efficiency provided.-FuelMonitorDemo.java
 2. Number manipulation Suppose we are writing a program PlayWithNumbersDecomposed,
 in which we have two tasks:
 (a) The program receive two integers, a and b, from the user and then prints a + b, a - b,
@@ -121,7 +121,7 @@ Enter two integers: 1000435 345
 10 (b - c)/a is equal to 0
 11 (b - a)/c is equal to 856
 12 (c - a)/b is equal to -435
-13 (c - b)/a is equal to 0
+13 (c - b)/a is equal to 0-PlayWithNumbersDecomposed.java
 3. WAP to create a super class called figure that stores the dimensions of a two dimensional object. It
 also defines a method called area () that computes the area of an object. The program derives two sub
 classes from figure. The first is rectangle and the second is Triangle. Each of these subclasses
