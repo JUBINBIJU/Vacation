@@ -138,7 +138,7 @@ width, height and length of box and two methods
 promote to next academic year if he have less than 4.5 CGP A. A developer is trying to implement
 this situation using exception handling in JAVA.
 Write a correct Java code to help him.
-Define a class Electbill that contains consumer details as follows :-
+7.Define a class Electbill that contains consumer details as follows :-
 Data members/Instance variable :
 cno (long) consumer number
 cname (String) consumer name
@@ -157,7 +157,7 @@ consumed
 201-300 Rs. 1.20 p·er call+ rental charges of Rs. 500
 Above300 Rs. 1.50 per call + rental charges of Rs. 500
 
-7. Coordinate system conversion There are two coordinate systems for a point on the two
+8. Coordinate system conversion There are two coordinate systems for a point on the two
 dimensional space with the origin. One system, the Cartesian system uses a pair of axes that
 are perpendicular to each other and specifies the point suing the x and y values of that point.
 The other system, the polar system, has one axis and uses the distance from the origin and the
@@ -172,7 +172,7 @@ the sign of y times the arc-cosine of y/x and that the cosine is x/sqrt(x
 2
 ).
 
-8. Euclidean distance Write a program named Euclidean that takes six double numbers a1,
+9. Euclidean distance Write a program named Euclidean that takes six double numbers a1,
 b1, c1, a2, b2, c2 as parameters, and then prints the Euclidean distance between the
 points (a1, b1, c1) and (a2, b2, c2) as sqrt((a1 − a2)
 
@@ -182,7 +182,7 @@ points (a1, b1, c1) and (a2, b2, c2) as sqrt((a1 − a2)
 2.
 )
 
-9. Writing an interface DateInt Consider the following interface, which is for recording the
+10. Writing an interface DateInt Consider the following interface, which is for recording the
 year, the month, and the day value of a date on or after January 1, 1900.
 
 public interface DateInt
@@ -202,7 +202,7 @@ year 1582, the determination of a leap year is made using the following rule: a 
 year if and only if Y is either a multiple of 400 or a multiple of 4 and not a multiple of 100. For
 example, the year 2000 is a leap year but 2100 is not one. Assuming the year to be tested for a leap
 year is greater than 1582, write the static method isLeapYear.
-10. Write a class named DataZero that implements the
+Write a class named DataZero that implements the
 interface DateInt from the previous question. The class has one constructor. The constructor
 receives three int values as parameters. The three values represent the year, the month, and the
 day. Write the constructor so that if the combination of year, month, and day is invalid, it throws
